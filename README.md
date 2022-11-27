@@ -6,6 +6,7 @@ Hosted on: https://tushar-goyal27.github.io/tales/
 
 ## Dependencies
 -ReactJS
+
 -npm
 
 ## Code Explanation
