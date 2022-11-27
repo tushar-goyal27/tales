@@ -12,8 +12,8 @@ const Histogram = (props) => {
         vals.push(i);
     }
 
+    // Toggle display for histogram 
     useEffect(() => {
-        console.log(data);
         if(props.freqData[0][0] == 0) {
             mainRef.current.style.display = "none";
         } else {

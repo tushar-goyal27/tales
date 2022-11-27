@@ -4,6 +4,8 @@ import Histogram from './components/Histogram';
 
 function App() {
   const [freqData, setFreqData] = useState([[0], [0]]);
+
+  // Function to clean the data
   const cleanData = (txt) => {
     txt = txt.replace(/[(),.@_:/"?!><;\-\n]/g, ' ');
     var words = txt.toLowerCase().split(' ');
